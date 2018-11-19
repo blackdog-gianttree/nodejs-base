@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start-server": "node src/index.js",
-    "test-cases": "eslint \"./**/*.js\" && mocha",
+    "test-cases": "eslint  \"./src/**/*.js\" \"./test/**/*.js\" && mocha",
     "test": "server-test start-server 3000 test-cases"
   },
   "repository": {
